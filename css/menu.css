@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Cabin", sans-serif;
+    background: #290244;
+}
+
+header{
+    width: 10%;
+    height: 100vh;
+    background: #38055D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+}
+
+.logo-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.circulo-menu{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #7F00FF;
+    border-radius: 50%;
+}
+
+.menu-desktop{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.menu-desktop button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu-desktop button img:hover{
+    filter: contrast(0.5);
+}
+
+.menu-desktop a{
+    text-decoration: none;
+    font-style: none;
+    font-size: 18px;
+    color: #fff;
+    transition: all .5s ease-in-out
+}
+
+.menu-desktop a:hover{
+    color: #2155e6;
+}

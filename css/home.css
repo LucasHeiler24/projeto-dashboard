@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Cabin", sans-serif;
+}
+
+section{
+    height: 100dvh;
+    background: #3C0366;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-circulo{
+    height: 100%;
+    width: 60%;
+    background: #7F00FF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    gap: 10px;
+}
+
+.content-circulo{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn-circulo{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-circulo a{
+    text-decoration: none;
+    font-style: none;
+    color: #fff;
+    padding: 20px 20px 20px 20px;
+    background: #8A28E2;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+
+.btn-circulo a:hover{
+    background: #58198f;
+}

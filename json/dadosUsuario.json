@@ -1,0 +1,118 @@
+{
+    "usuario": [
+        {
+            "nome": "Lucas Heiler",
+            "email": "lucas@gmail.com",
+            "nick": "lucas#1234"
+        }
+    ],
+    "receitas": [
+        {
+            "nomeReceita": "Salário do mês",
+            "valorReceita": 10000,
+            "dataReceita": "2025-06-07",
+            "categoria": "Salário",
+            "descricao": "Salário da MALWEE",
+            "corCategoria": "#17aa0a",
+            "recebido": true
+        },
+        {
+            "nomeReceita": "Jogo do bingo",
+            "valorReceita": 140.60,
+            "dataReceita": "2025-06-10",
+            "categoria": "Prêmios",
+            "descricao": "",
+            "corCategoria": "#c5e72a",
+            "recebido": true
+        },
+        {
+            "nomeReceita": "Prêmio",
+            "valorReceita": 990,
+            "dataReceita": "2025-06-10",
+            "categoria": "Prêmios",
+            "descricao": "Aposta em jogos de azar",
+            "corCategoria": "#c5e72a",
+            "recebido": true
+        },
+        {
+            "nomeReceita": "Alugueis das propriedades",
+            "valorReceita": 10000,
+            "dataReceita": "2025-06-12",
+            "categoria": "Propriedades",
+            "descricao": "Aluguel dos meus inquilinos",
+            "corCategoria": "#3c008b",
+            "recebido": true
+        },
+        {
+            "nomeReceita": "Presente do irmão",
+            "valorReceita": 500,
+            "dataReceita": "2025-06-11",
+            "categoria": "Presente",
+            "descricao": "Presente de aniversário do irmão",
+            "corCategoria": "#1f6cd1",
+            "recebido": true
+        }
+    ],
+    "despesas": [
+        {
+            "nomeDespesa": "Conta de água",
+            "valorDespesa": 150.75,
+            "dataDespesa": "2025-06-09",
+            "tipoDespesa": "Recorrente",
+            "categoria": "Moradia",
+            "descricao": "Conta de água recorrente do mês",
+            "corCategoria": "#0a0863",
+            "pago": true
+        },
+        {
+            "nomeDespesa": "Conta de luz",
+            "valorDespesa": 250.15,
+            "dataDespesa": "2025-06-09",
+            "tipoDespesa": "Recorrente",
+            "categoria": "Moradia",
+            "descricao": "Conta de luz recorrente do mês",
+            "corCategoria": "#0a0863",
+            "pago": true
+        },
+        {
+            "nomeDespesa": "Mensalidade do play-5",
+            "valorDespesa": 320.35,
+            "dataDespesa": "2025-06-12",
+            "tipoDespesa": "Mensal",
+            "categoria": "Lazer",
+            "descricao":"Pagamento mensal da parcela do play-5",
+            "corCategoria": "#8d0b71",
+            "pago": true
+        },
+        {
+            "nomeDespesa": "Supermercado",
+            "valorDespesa": 2550.75,
+            "dataDespesa": "2025-06-10",
+            "tipoDespesa": "Á vista",
+            "categoria": "Alimentação",
+            "descricao": "Pagamento da fatura do cartão do mercado do mês",
+            "corCategoria": "#c0170b",
+            "pago": true
+        },
+        {
+            "nomeDespesa": "Mensalidade da academia",
+            "valorDespesa": 80,
+            "dataDespesa": "2025-06-10",
+            "tipoDespesa": "Recorrente",
+            "categoria": "Academia",
+            "descricao": "",
+            "corCategoria": "#0c9797",
+            "pago": true
+        },
+        {
+            "nomeDespesa": "Mensalidade da faculdade",
+            "valorDespesa": 250.40,
+            "dataDespesa": "2025-06-09",
+            "tipoDespesa": "Recorrente",
+            "categoria": "Educação",
+            "descricao": "",
+            "corCategoria": "#e2d51d",
+            "pago": true
+        }
+    ]
+}

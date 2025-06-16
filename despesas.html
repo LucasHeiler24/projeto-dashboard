@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/despesas.css">
+    <title>Despesas</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo-menu">
+            <div class="circulo-menu">
+                <img src="img/logo.png">
+            </div>
+        </div>
+        <div class="menu-desktop">
+            <button id="btnArrastar"><img src="img/arrastar.png"></button>
+            <button id="btnVoltar"><img src="img/voltar.png"></button>
+            <button id="btnDashboard"><img src="img/dashboard.png"><a id="link1" href="dashboard.html"></a></button>
+            <button id="btnGraficos"><img src="img/graficos.png"><a id="link2" href="graficos.html"></a></button>
+            <button id="btnDespesas"><img src="img/despesas.png"><a id="link3" href="despesas.html"></a></button>
+            <button id="btnReceitas"><img src="img/receitas.png"><a id="link4" href="receitas.html"></a></button>
+        </div>
+    </header>
+    <main>
+        <section class="background1">
+            <div class="content-background">
+                <div class="content-dadosUser">
+                    <h1 id="dadoNome"></h1>
+                    <h1 id="dadoData"></h1>
+                </div>
+                <div class="content-registros-despesas">
+                    <h1>Todas as despesas</h1>
+                    <div class="content-filtro">
+                        <input type="text" id="inFiltro" placeholder="Informe sua busca:">
+                        <input type="date" id="inData">
+                        <select id="opFiltro">
+                            <option value="0">Informe o tipo do filtro:</option>
+                            <option value="nomeDespesa">Nome da despesa</option>
+                            <option value="categoria">Categoria</option>
+                            <option value="dataDespesa">Data</option>
+                        </select>
+                    </div>
+                    <div class="content-despesas" id="mostrarDespesas"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+<script src="js/despesas.js" type="module"></script>
+<script src="js/menu.js"></script>
+
+</html>

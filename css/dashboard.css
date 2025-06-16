@@ -1,0 +1,71 @@
+.background1{
+    height: auto 100dvh;
+    background: #290244;
+}
+
+.content-background{
+    height: auto 100dvh;
+    margin-left: 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content-dadosUser{
+    width: 90%;
+    height: 15%;
+    background: #dbdbdb;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.content-infoSaldo{
+    width: 90%;
+    height: 20%;
+    background: #dbdbdb;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.content-receitas h1{
+    color: rgb(13, 131, 66);
+}
+
+.content-despesas h1{
+    color: rgb(204, 32, 1);
+}
+
+.meuSaldo h1{
+    color: rgb(0, 89, 255);
+}
+
+.content-registos{
+    width: 90%;
+    height: auto;
+    background: #dbdbdb;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.background-registros{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
